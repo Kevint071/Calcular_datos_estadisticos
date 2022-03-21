@@ -11,5 +11,4 @@ plot.title('Histograma de edades')
 plot.xlabel('Edades')
 plot.ylabel('Frecuencia')
 plot.xticks(intervalos)
-
 plot.show()
