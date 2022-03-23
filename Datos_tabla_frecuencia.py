@@ -42,9 +42,11 @@ limite_inferior = min(lista) - division
 print(f"\nLimite superior: {limite_superior}")
 print(f"Limite inferior: {limite_inferior}\n")
 
-m = ceil(1 * (3.3 + log(len(lista), 10)))
+m = ceil(1 + (3.3 * log(len(lista), 10)))
 
-print(f"m: {1 * (3.3 + log(len(lista), 10)):g} = {m}")
+print(log(len(lista), 10))
+
+print(f"m: {1 + (3.3 * log(len(lista), 10)):g} = {m}")
 
 c = ceil(rango/m)
 
